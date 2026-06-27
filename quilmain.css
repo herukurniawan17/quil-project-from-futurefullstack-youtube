@@ -3,12 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 } */
+body {
+  font-family: 'poppins', sans-serif;
+}
 
 h1, h2, h3, h4, h5 {
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: -2px;
-  font-family: 'poppins', sans-serif;
+  
   color: #212529;
 }
 
@@ -37,12 +40,10 @@ h5{
 p, a, small-text {
   font-weight: 400;
   line-height: 1.5;
-  font-family: 'poppins', sans-serif;
   color: #495057;
 }
 
 p {
-  text-align: ;
   font-size: 20px;
 }
 
@@ -61,7 +62,6 @@ ul {
 
 .btn {
   font-weight: 400;
-  font-family: 'popins', sans-serif;
   font-size: 16px;
   text-decoration: none;
 }
