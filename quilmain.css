@@ -102,6 +102,14 @@ ul {
   background-color: #ff922b;
 }
 
+.logo-md {
+  width: 100px;
+}
+
+.logo-sm {
+  width: 80px;
+}
+
 /* ------------ SECTION ------------*/
 
 /* --- HERO SECTION --- */
@@ -116,15 +124,28 @@ ul {
   text-align: center;
 }
 
+.feature-img {
+  width: 400px;
+}
+
 /* --- CTA SECTION --- */
 
 .cta-section {
   text-align: center;
 }
 
+.cta-card {
+  background-color: #339af0;
+  width: 1000px;
+}
+
 /* --- FOOTER SECTION --- */
 
 .footer {
   text-align: center;
+}
+
+.sosial-icon {
+  width: 20px;
 }
 
