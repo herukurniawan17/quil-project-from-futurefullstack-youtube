@@ -3,8 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 } */
+
+/* ------------ GLOBAL STYLE ------------*/
+
 body {
   font-family: 'poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
 }
 
 h1, h2, h3, h4, h5 {
@@ -16,12 +22,10 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  text-align: center;
   font-size: 62px;
 }
 
 h2 {
-  text-align: center;
   font-size: 48px;
 }
 
@@ -35,12 +39,6 @@ h4 {
 
 h5{
   font-size: 24px;
-}
-
-p, a, small-text {
-  font-weight: 400;
-  line-height: 1.5;
-  color: #495057;
 }
 
 p {
@@ -59,6 +57,8 @@ ul {
 .small-text {
   font-size: 12px;
 }
+
+/* ------------ COMPONENT ------------*/
 
 .btn {
   font-weight: 400;
@@ -81,3 +81,30 @@ ul {
 .btn-secondary:hover, .btn-secondary:active {
   color: #7048e8;
 }
+
+/* ------------ SECTION ------------*/
+
+/* --- HERO SECTION --- */
+
+.hero-section {
+  text-align: center;
+}
+
+/* --- FEATURES SECTION --- */
+
+.features-main-heading {
+  text-align: center;
+}
+
+/* --- CTA SECTION --- */
+
+.cta-section {
+  text-align: center;
+}
+
+/* --- FOOTER SECTION --- */
+
+.footer {
+  text-align: center;
+}
+
